@@ -1,0 +1,14 @@
+header.brand-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 98vw;
+  padding: var(--content-padding);
+  box-shadow: 0px 5px 25px var(--shadow-color);
+  margin-top: 0;
+}
+
+.brand-logo {
+  display: block;
+}

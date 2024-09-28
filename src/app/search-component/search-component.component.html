@@ -1,0 +1,17 @@
+<section id="searchComponent">
+  <form>
+    <input
+      type="text"
+      (input)="filterLocationOnInputChange($event)"
+      placeholder="Filter by city"
+      #filter
+    />
+    <button
+      class="primary"
+      type="button"
+      (click)="filterHousingOnClick(filter.value)"
+    >
+      Search
+    </button>
+  </form>
+</section>
